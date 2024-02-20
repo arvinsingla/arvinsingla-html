@@ -276,6 +276,12 @@ p {
 	border-bottom: 1px solid #eee
 }
 
+@media only screen and (max-width:480px) {
+	.content__wrapper {
+		padding: 20px 0;
+	}
+}
+
 @media print {
 	.content__wrapper {
 		margin: 15px;
@@ -356,6 +362,7 @@ p {
 	margin: 0 5px;
 	padding: 0 5px;
 	border-radius: 3px;
+	font-weight: bold;
 	-webkit-transition: color .25s, background-color .25s;
 	-moz-transition: color .25s, background-color .25s;
 	transition: color .25s, background-color .25s
@@ -378,6 +385,11 @@ p {
 		margin-left: -33px;
 		width: 66px;
 		height: 66px
+	}
+
+	.header__avatar img {
+		width: 57px;
+		height: 57px;
 	}
 
 	.header__nav__list__item a {
@@ -432,12 +444,6 @@ p {
 	color: #666;
 	font-weight: 300;
 	font-size: 1.25rem
-}
-
-@media only screen and (max-width:480px) {
-	.intro__title {
-		font-size: 1rem
-	}
 }
 
 .cv__tech__items {
