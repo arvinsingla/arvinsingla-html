@@ -128,7 +128,8 @@ a {
 	-webkit-transition: color .25s;
 	-moz-transition: color .25s;
 	transition: color .25s;
-	text-decoration: none
+	text-decoration: underline;
+	text-underline-offset: 2px;
 }
 
 a:hover {
@@ -144,6 +145,10 @@ h3 {
 h4 {
 	font-size: 1.125rem;
 	font-weight: 300
+}
+
+h4 a {
+	text-underline-offset: 3px;
 }
 
 p {
@@ -306,7 +311,8 @@ p {
 
 .header,
 .header a {
-	color: #fff
+	color: #fff;
+	text-decoration: none;
 }
 
 .header__title {
@@ -413,7 +419,7 @@ p {
 	-moz-box-pack: center;
 	justify-content: center;
 	text-align: center;
-	color: #999;
+	color: #666666;
 	font-size: .813rem;
 	margin-bottom: 1rem
 }
