@@ -123,6 +123,12 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+@media print {
+	body {
+		font: 13px/1.6 Helvetica Neue, Helvetica, Arial, sans-serif;
+	}
+}
+
 a {
 	color: #eb298c;
 	-webkit-transition: color .25s;
