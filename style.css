@@ -494,20 +494,20 @@ p {
 	font-style: italic;
 }
 
-.cv__resume__item__description ul {
+ul {
 	list-style: inherit;
 	margin: 10px 0 0 20px;
 }
 
-.cv__resume__item__description ul li {
+ul li {
 	padding: 3px 0;
 }
 
-.cv__resume__item__description ul li:first-of-type {
+ul li:first-of-type {
 	padding-top: 0;
 }
 
-.cv__resume__item__description ul li:last-of-type {
+ul li:last-of-type {
 	padding-bottom: 0;
 }
 
